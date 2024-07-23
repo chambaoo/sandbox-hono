@@ -1,0 +1,17 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/opt/app
+    #   - /usr/src/app/node_modules
+    # environment:
+      # - NODE_ENV=development
+    # command: npm run dev
+    # command: 
+
+# volumes:
+#   node_modules:

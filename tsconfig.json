@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es2020",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "strict": true
+    },
+    "ts-node": {
+      "esm": true,
+      "experimentalSpecifierResolution": "node"
+    },
+    "include": ["src/**/*"]
+  }
